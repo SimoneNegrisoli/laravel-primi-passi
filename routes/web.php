@@ -23,6 +23,11 @@ Route::get('/about', function () {
         'nome' => 'simone',
         'eta' => '29',
         'classe' => '107',
+        'colors' => [
+            'primo' => 'rosso',
+            'secondo' => 'giallo',
+            'terzo' => 'verde',
+        ],
     ];
     return view('about', $data);
 })->name('about');

@@ -26,6 +26,13 @@
             <li>{{$classe}}</li>
         </ul>
     </div>
+    <div>
+        <ul>
+            @foreach($colors as $color)
+            <li>{{$color}}</li>
+            @endforeach
+        </ul>
+    </div>
 
 
 </body>
